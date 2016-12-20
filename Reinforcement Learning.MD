@@ -1,1 +1,8 @@
-Prioritized Sweeping (DP) [paper](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa13/optreadings/MooreAtkeson-1993-prioritized-sweeping.pdf)
+- Prioritized Sweeping (DP) [paper](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa13/optreadings/MooreAtkeson-1993-prioritized-sweeping.pdf)
+- The discount factor gamma, γ, makes the value functions closer by at least γ.
+- MC has high variance, zero bias (uses vπ), while TD has low variance, some bias (approximates vπ to intermediate V)
+- TD is dependent on initial value
+- λ-Bellman operator -> Eligibility Traces
+- Frequency heuristic: assign credit to most frequent states
+- Recency heuristic: assign credit to most recent states
+- Eligibility traces combine both heuristics
